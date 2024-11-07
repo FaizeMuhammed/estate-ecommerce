@@ -15,7 +15,7 @@ export async function GET(NextRequest) {
         const { searchParams } = new URL(NextRequest.url);
         const receiver = searchParams.get('seller') || '';
         const method = searchParams.get('method')
-        console.log(receiver, 'ta da da da')
+        
 
         const token = NextRequest.cookies.get('token')?.value;
         console.log(token, 'this is the token')
