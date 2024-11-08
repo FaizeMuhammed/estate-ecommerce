@@ -8,6 +8,7 @@ const Message = require('./src/models/message')
 const Connect = require('./src/config/socketConfig')
 
 const dev = process.env.NODE_ENV !== 'production';
+const PORT=process.env.PORT || 3000
 const app = next({ dev });
 const handle = app.getRequestHandler();
 let receiverId;
@@ -62,8 +63,8 @@ app.prepare().then(() => {
     });
   });
 
-  server.listen(3000, (err) => {
+  server.listen(PORT, (err) => {
     if (err) throw err;
-    console.log('> Ready on http://localhost:3000');
+    console.log('> Ready on port 3000');
   });
 });
