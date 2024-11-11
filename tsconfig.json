@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/headerCatagories.jsx", "src/app/features/proudctSlice.js", "src/app/components/headerCatagories.js", "src/app/chatPage/page.jsx", "src/app/components/addCard.jsx", "src/app/components/adminContent.jsx", "src/app/components/chat.jsx", "src/app/components/footer.jsx", "src/app/components/header.jsx", "src/app/components/home.jsx", "src/app/components/login.jsx", "src/app/components/memberships.jsx", "src/app/components/productListing.jsx", "src/app/components/profile.jsx", "src/app/components/register.jsx", "src/app/components/salesGraph.jsx", "src/app/components/uploads.jsx", "src/app/components/viewProduct.jsx", "src/app/components/wishlist.jsx", "src/app/homePage/page.jsx", "src/app/login/page.jsx", "src/app/productDetails/page.jsx", "src/app/profile/page.jsx", "src/app/register/page.jsx", "src/app/subscriptions/page.jsx", "src/app/uploadPage/page.jsx", "src/app/wishlist/page.jsx", "src/app/layout.jsx", "src/app/page.jsx", "src/app/api/homePage/route.js", "src/app/api/isAuth/route.js", "src/app/api/login/route.js", "src/app/api/logout/route.js", "src/app/api/productView/route.js", "src/app/api/Products/route.js", "src/app/api/register/route.js", "src/app/api/users/route.js"],
   "exclude": ["node_modules"]
 }

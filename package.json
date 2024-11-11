@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "nodemon server.js",
     "build": "next build",
     "lint": "next lint",
-    "start": "next start",
+    "start": "node server.js",
     "start:socket": "node socket-server.js"
   },
   "dependencies": {
